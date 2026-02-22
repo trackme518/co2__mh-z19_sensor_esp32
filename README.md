@@ -69,6 +69,7 @@ Pin defaults are defined near the top of `co2/co2.ino`. Adjust `RX_PIN` and `TX_
 - `libraries/` bundled dependencies.
 
 **Build**
+
 You can find archived version of [libraries](libraries/) in this repository. The project uses ESP32 board definitions by Espressif in version 3.3.7. Links to original libraries:
 
 * https://github.com/ESP32Async/AsyncTCP
