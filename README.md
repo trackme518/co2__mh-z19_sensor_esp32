@@ -11,6 +11,8 @@ Tested with ESP32-S2 Mini.
 - Saves settings in NVS (Preferences) so they persist across reboots.
 - Supports ABC toggle, calibration, threshold setting, and range setting.
 
+![HW parts](assets/parts.png)
+
 **Defaults**
 - Threshold: 1000 ppm.
 - Range: 2000 ppm.
