@@ -1,4 +1,4 @@
-# CO2 MH-Z19 (E) Sensor with Async Web Server on ESP32
+# CO2 MH-Z19 (E) sensor with Async Webserver on ESP32
 ![Web UI screenshot](assets/screenshot.png)
 
 MH-Z19 CO2 sensor monitor and control dashboard running on ESP32.
@@ -67,3 +67,13 @@ Pin defaults are defined near the top of `co2/co2.ino`. Adjust `RX_PIN` and `TX_
 - `co2/co2.ino` main firmware logic and routes.
 - `co2/html.ino` embedded web UI.
 - `libraries/` bundled dependencies.
+
+**Build**
+You can find archived version of [libraries](libraries/) in this repository. The project uses ESP32 board definitions by Espressif in version 3.3.7. Links to original libraries:
+
+* https://github.com/ESP32Async/AsyncTCP
+* https://github.com/ESP32Async/ESPAsyncWebServer
+* https://github.com/WifWaf/MH-Z19
+
+# License
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). Please refer to the [license](https://creativecommons.org/licenses/by-nc-sa/4.0/). The author is not liable for any damage caused by the software. Usage of the software is completely at your own risk.
